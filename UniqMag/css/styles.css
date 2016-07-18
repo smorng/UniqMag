@@ -1,0 +1,67 @@
+
+body {
+	font: font-family: Arial, Helvetica, sans-serif;
+}
+
+#site-wrapper {
+	width: 100%;
+	background-color: #fff;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 940px;
+	background-color: red;
+}
+
+#logo {
+	text-align: center;
+	padding-top: 20px;
+	width: auto;
+}
+
+#menu {
+	float: left;
+	padding: 0px 10px;
+}
+
+#menu li {
+	float: left;
+	display: inline-block;
+	padding: 10px;
+}
+
+#nav-menu #header-menu-search-button {
+	text-align: right;
+	display: block;
+	line-height: 15px;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+	header nav ul li a {
+		text-transform: uppercase;
+		display: block;
+		position: relative;
+		margin-right: 10px;
+		text-decoration: none;
+		line-height: 15px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		color: #222;
+		padding: 5px;
+	}
+
+	li a:hover {
+		border-bottom-width: 3px;
+		border-bottom-style: solid;
+		border-bottom-color: #9c8dc1;
+	}
+
+.post-grid-50 {
+	display: inline-block;
+	width: 50%;
+	text-decoration: none;
+	background-color: blue;
+
+}
